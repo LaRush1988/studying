@@ -6,7 +6,7 @@ class Product:
     def get_basic_info(self):
         return f'{self.name} (в наличии: {self.quantity})'
     
-    def get_full_info():
+    def get_full_info(self):
         pass
 
 class Kettlebell(Product):
